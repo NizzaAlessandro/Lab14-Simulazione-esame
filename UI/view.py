@@ -20,7 +20,7 @@ class View(ft.UserControl):
         self.btn_countedges = None
         self.btn_search = None
 
-        self.txt_result = None
+        self.txtResult = None
         self.txt_result2 = None
         self.txt_result3 = None
 
@@ -37,8 +37,8 @@ class View(ft.UserControl):
         self._page.controls.append(row1)
 
         # List View where the reply is printed
-        self.txt_result = ft.ListView(expand=1, spacing=10, padding=20, auto_scroll=True)
-        self._page.controls.append(self.txt_result)
+        self.txtResult = ft.ListView(expand=1, spacing=10, padding=20, auto_scroll=True)
+        self._page.controls.append(self.txtResult)
         self._page.update()
 
         #ROW with some controls
